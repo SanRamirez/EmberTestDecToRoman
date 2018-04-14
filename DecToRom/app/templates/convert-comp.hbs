@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Decimal To Roman</title>
+    </head>
+    <body>
+            <fieldset>
+                <legend>Ingrese  numero</legend>
+                <label for="">Numero en Decimal:</label>
+                {{input type="text" id="txtN1" value=txtN1}}
+                <br><br>
+                <label for="">El numero romano es: </label>
+                {{input type = "text" id="resultado" value=resultado disabled=true}}
+                <br><br>
+                <button {{action "convert"}}>Convertir</button>
+                
+            </fieldset>
+    </body>
+</html>
+{{outlet}}
